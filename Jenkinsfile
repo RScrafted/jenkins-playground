@@ -10,7 +10,7 @@ pipeline {
 
         stage('Hello') {
             steps {
-                sh 'echo "Hello from Jenkins SCM pipeline"'
+                echo 'Hello from Jenkins SCM pipeline'
             }
         }
     }
